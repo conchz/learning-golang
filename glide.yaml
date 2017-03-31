@@ -1,0 +1,16 @@
+package: github.com/lavenderx/learning-golang
+license: MIT
+import:
+- package: github.com/valyala/fasthttp
+- package: github.com/labstack/echo
+  version: ^3.0.3
+  subpackages:
+  - '...'
+- package: github.com/json-iterator/go
+- package: github.com/coreos/etcd
+  version: ^3.1.5
+  subpackages:
+  - client
+- package: github.com/jinzhu/gorm
+- package: gopkg.in/redis.v5
+  version: ^5.2.9
